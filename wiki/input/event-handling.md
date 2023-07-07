@@ -140,10 +140,10 @@ Then, in your Input processor:
     {
 	    switch (keycode)
 	    {
-		case Keys.LEFT:
+		case Input.Keys.LEFT:
 			bob.setLeftMove(true);
 			break;
-		case Keys.RIGHT:
+		case Input.Keys.RIGHT:
 			bob.setRightMove(true);
 			break;
 	    }
@@ -154,10 +154,10 @@ Then, in your Input processor:
     {
 	    switch (keycode)
 	    {
-		case Keys.LEFT:
+		case Input.Keys.LEFT:
 			bob.setLeftMove(false);
 			break;
-		case Keys.RIGHT:
+		case Input.Keys.RIGHT:
 			bob.setRightMove(false);
 			break;
 	    }
